@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3A980CFF-0AF2-4911-9C17-5AC4CEEB7CAE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Palindroms.My.MyApplication</StartupObject>
-    <RootNamespace>Palindroms</RootNamespace>
-    <AssemblyName>Palindroms</AssemblyName>
+    <StartupObject>Palindromes.My.MyApplication</StartupObject>
+    <RootNamespace>Palindromes</RootNamespace>
+    <AssemblyName>Palindromes</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -20,7 +20,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Palindroms.xml</DocumentationFile>
+    <DocumentationFile>Palindromes.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -30,7 +30,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Palindroms.xml</DocumentationFile>
+    <DocumentationFile>Palindromes.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>

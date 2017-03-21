@@ -23,7 +23,7 @@ Partial Class Palui
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.getPalindromsButton = New System.Windows.Forms.Button()
+        Me.getPalindromesButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'RichTextBox1
@@ -34,28 +34,28 @@ Partial Class Palui
         Me.RichTextBox1.TabIndex = 0
         Me.RichTextBox1.Text = ""
         '
-        'getPalindromsButton
+        'getPalindromesButton
         '
-        Me.getPalindromsButton.Location = New System.Drawing.Point(566, 34)
-        Me.getPalindromsButton.Name = "getPalindromsButton"
-        Me.getPalindromsButton.Size = New System.Drawing.Size(240, 111)
-        Me.getPalindromsButton.TabIndex = 1
-        Me.getPalindromsButton.Text = "GetPalindroms"
-        Me.getPalindromsButton.UseVisualStyleBackColor = True
+        Me.getPalindromesButton.Location = New System.Drawing.Point(566, 34)
+        Me.getPalindromesButton.Name = "getPalindromesButton"
+        Me.getPalindromesButton.Size = New System.Drawing.Size(240, 111)
+        Me.getPalindromesButton.TabIndex = 1
+        Me.getPalindromesButton.Text = "GetPalindromes"
+        Me.getPalindromesButton.UseVisualStyleBackColor = True
         '
         'Palui
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(818, 593)
-        Me.Controls.Add(Me.getPalindromsButton)
+        Me.Controls.Add(Me.getPalindromesButton)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Name = "Palui"
-        Me.Text = "Palindroms"
+        Me.Text = "Palindromes"
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
-    Friend WithEvents getPalindromsButton As System.Windows.Forms.Button
+    Friend WithEvents getPalindromesButton As System.Windows.Forms.Button
 
 End Class

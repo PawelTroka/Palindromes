@@ -2,7 +2,7 @@
 Imports Words
 Public Class Palui
 
-    Private Async Sub getPalindromsButton_Click(sender As Object, e As EventArgs) Handles getPalindromsButton.Click
+    Private Async Sub getPalindromesButton_Click(sender As Object, e As EventArgs) Handles getPalindromesButton.Click
 
         Dim res As Task(Of String) = addTextBoxAsync()
         RichTextBox1.Text = "waiting..."
